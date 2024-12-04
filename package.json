@@ -1,6 +1,6 @@
 {
   "name": "create-hono-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern Hono backend template with Cloudflare Workers and DrizzleORM",
   "bin": {
     "create-hono-backend": "./bin/create-hono-backend.js"
@@ -23,11 +23,8 @@
   "dependencies": {
     "@hono/zod-validator": "^0.4.1",
     "@neondatabase/serverless": "^0.7.2",
-    "child_process": "^1.0.2",
     "drizzle-orm": "^0.29.3",
-    "fs": "0.0.1-security",
     "hono": "^3.12.2",
-    "path": "^0.12.7",
     "zod": "^3.23.8"
   },
   "keywords": [
