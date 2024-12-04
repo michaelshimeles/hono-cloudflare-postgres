@@ -23,8 +23,11 @@
   "dependencies": {
     "@hono/zod-validator": "^0.4.1",
     "@neondatabase/serverless": "^0.7.2",
+    "child_process": "^1.0.2",
     "drizzle-orm": "^0.29.3",
+    "fs": "0.0.1-security",
     "hono": "^3.12.2",
+    "path": "^0.12.7",
     "zod": "^3.23.8"
   },
   "keywords": [
@@ -35,14 +38,17 @@
     "drizzle",
     "typescript"
   ],
-  "author": "Your Name",
+  "author": "Michael Shimeles",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/hono-backend.git"
+    "url": "https://github.com/michaelshimeles/hono-starter-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/hono-backend/issues"
+    "url": "https://github.com/michaelshimeles/hono-starter-kit/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/hono-backend#readme"
+  "homepage": "https://github.com/michaelshimeles/hono-starter-kit#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
