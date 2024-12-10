@@ -71,8 +71,8 @@ hono-backend/
 
 - `bun run dev` - Start development server with Wrangler
 - `bun run deploy` - Deploy to Cloudflare Workers
-- `bun run db:generate` - Generate database migrations
-- `bun run db:migrate` - Run database migrations
+- `npx drizzle-kit generate` - Generate database migrations
+- `npx drizzle-kit push` - Create table(s)
 
 ## Database Schema
 

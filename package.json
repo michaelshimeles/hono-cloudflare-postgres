@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231218.0",
-    "dotenv": "^16.3.1",
-    "drizzle-kit": "^0.20.10",
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.0",
     "postgres": "^3.4.3",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "@hono/zod-validator": "^0.4.1",
-    "@neondatabase/serverless": "^0.7.2",
-    "drizzle-orm": "^0.29.3",
+    "@neondatabase/serverless": "^0.10.4",
+    "drizzle-orm": "^0.38.0",
     "hono": "^3.12.2",
     "zod": "^3.23.8"
   },
