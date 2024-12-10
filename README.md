@@ -40,8 +40,8 @@ DATABASE_URL=your_postgresql_connection_string
 
 4. Run database migrations:
 ```bash
-bun run db:generate
-bun run db:migrate
+npx drizzle-kit generate
+npx drizzle-kit push
 ```
 
 5. Start the development server:
