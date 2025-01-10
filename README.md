@@ -22,7 +22,7 @@ A modern, high-performance backend starter template built with [Hono](https://ho
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/codead01/hono-starter-kit.git
+git clone https://github.com/michaelshimeles/hono-starter-kit.git
 cd hono-backend
 ```
 
